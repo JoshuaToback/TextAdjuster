@@ -1,6 +1,8 @@
 # Just Another Text Editor (JATE)
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
+
+[![HerokuLogo](https://www.herokucdn.com/deploy/button.svg)](https://salty-temple-45216.herokuapp.com/)
 
 ## Table of Contents
 
@@ -13,7 +15,7 @@
 
 ## Description
 
-Sometimes you need a quick way to create code snippets without being online. Luckily for you, here's Just Another Text Editor, or JATE! Using localStorage, an integrated service worker, and a Cache API, this application can store data locally and make sure an application can run independantly. 
+Sometimes you need a quick way to create code snippets without being online. Luckily for you, here's Just Another Text Editor, or JATE! Using localStorage, an integrated service worker, and a Cache API, this application can store data locally and make sure an application can run independently. 
 
 ## Installation
 
@@ -25,9 +27,17 @@ Simply type in npm start while in the root directory, and you'll be able to acce
 
 ![JATE](/assets/Jate.png)
 
-Type in any code you'd like. 
+Type in any code you'd like and it will be stored within the localStorage!
+
+![localStorage](./assets/StoredData.png)
+
+When deployed to Heroku, it also has pre-cached static assets when pages are loaded! 
+
+![ServiceWorkers](./assets/DeployedSW.png)
 
 You can install the application by pressing the button on the top left, and the application should show up on your desktop, like so:
+
+![app](/assets/JATEApp.png)
 
 ## Licenses
 
